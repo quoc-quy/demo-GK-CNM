@@ -4,6 +4,8 @@ const productController = require('./product-controller')
 
 const app = express()
 
+console.log('Hello')
+
 // Middleware
 app.use(express.static('public'))
 app.use(express.json())
