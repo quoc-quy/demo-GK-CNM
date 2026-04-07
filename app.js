@@ -5,7 +5,6 @@ const productController = require('./product-controller')
 const app = express()
 
 console.log('Hello1')
-console.log('Hello2')
 console.log('Hello3')
 
 // Middleware
